@@ -1,0 +1,60 @@
+/* style.css */
+@font-face {
+    font-family: 'ssp';
+    src: url('ssp.ttf') format('truetype');
+    /* Add more font formats if needed for cross-browser compatibility */
+  }
+
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  body {
+    font-family: 'ssp', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000; /* Change to a darker color, like black */
+  }
+
+  header {
+    background-color: #1D2E28;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header img {
+    border-radius: 50%;
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 10px;
+   /* float: right;  Float the image to the right */
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+    a {
+    animation: floatAnimation 2s infinite; /* Adjust the animation duration as needed */
+    float: left; /* or right */
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+
+  footer {
+    background-color: #F0EAD6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
