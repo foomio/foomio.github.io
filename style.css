@@ -1,7 +1,7 @@
 /* style.css */
 @font-face {
-    font-family: 'ssp';
-    src: url('ssp.ttf') format('truetype');
+    font-family: 'mangat';
+    src: url('mangat.ttf') format('truetype');
     /* Add more font formats if needed for cross-browser compatibility */
   }
 
@@ -15,7 +15,7 @@
   }
 
   body {
-    font-family: 'ssp', sans-serif;
+    font-family: 'mangat', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #000000; /* Change to a darker color, like black */
